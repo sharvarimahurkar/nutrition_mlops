@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Run NutriPlan", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run.py", "console": "integratedTerminal" },
+    { "name": "Train model", "type": "debugpy", "request": "launch", "module": "src.train", "cwd": "${workspaceFolder}" }
+  ]
+}
